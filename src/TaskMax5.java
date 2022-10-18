@@ -1,5 +1,5 @@
-public class DataTypesDemo {
-    public static void main(String[] args) {
+public class TaskMax5 {
+    public static void main(String args[]){
 
         int[] a = new int[] { 13, 6, 9, 12, 211};
         int max = a[0];
@@ -8,8 +8,6 @@ public class DataTypesDemo {
             max = a[i];
         }
         }
-
-
         System.out.println("The Largest Number is: " + max);
     }
 }
